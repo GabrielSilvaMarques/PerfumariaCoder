@@ -1,2 +1,0 @@
-# Perfumaria
-Loja de perfumes
