@@ -1,0 +1,25 @@
+header {
+    background-color: #b52121;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .menu {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
