@@ -1,12 +1,13 @@
 
 import React from 'react';
 import Header from './header/Header.js';
+import ItemListContainer from './ItemListContainer.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* O restante do seu conteúdo aqui */}
+      <ItemListContainer greeting="Bem-vindo à nossa Perfumaria!" />
     </div>
   );
 }

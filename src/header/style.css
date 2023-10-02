@@ -1,9 +1,13 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.min.css';
+
 header {
-    background-color: #b52121;
+    background-color: #adfc52;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: #fff;
+    align-items: center;
+    color: #232222;
     padding: 10px 0;
     text-align: center;
   }
@@ -15,7 +19,7 @@ header {
   }
   
   .menu a {
-    color: #fff;
+    color: #2b2b2b;
     text-decoration: none;
     margin: 0 20px;
   }
@@ -23,3 +27,8 @@ header {
   .menu a:hover {
     text-decoration: underline;
   }
+
+.cartbutton {
+  background-color: aqua;
+  border-radius: 10px;
+}
